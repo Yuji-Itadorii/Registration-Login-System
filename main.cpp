@@ -3,6 +3,18 @@
 #include <string>
 using namespace std;
 
+bool checkExistedfile(string s){
+    ifstream file;
+    file.open(s+".txt");
+    if (file)
+    {
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
 bool usernameValidator(string s)
 {
     int count = 0;
@@ -46,6 +58,11 @@ int main()
         cout << "Rules of Username : \n1.It must not have any special charator\n2.It must not have any space between the name\n";
         cout << "Enter your username:- \n";
         getline(cin, username);
+        if (checkExistedfile(username))
+        {
+            cout << "Username already exists!!\n";
+            return 0;
+        }
         if (usernameValidator(username))
         {
             cout << "Invalid Username entered!!\n";
