@@ -63,7 +63,7 @@ $ git pull upstream main
 
 ## Screenshots
 
-![Screenshot](/Screenshorts/Scrrenshot.png)
+![SS](https://github.com/Yuji-Itadorii/Resgistration-Login-System/blob/master/Scrrenshots/Screenshot.png)
 
 
 ## Support
