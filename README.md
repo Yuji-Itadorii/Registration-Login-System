@@ -63,7 +63,7 @@ $ git pull upstream main
 
 ## Screenshots
 
-![Screenshot](/Screenshorts/Scrrenshots.png)
+![Screenshot](/Screenshorts/Scrrenshot.png)
 
 
 ## Support
