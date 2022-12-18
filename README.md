@@ -1,4 +1,4 @@
-# Resgistration-Login-System
+# Registration-Login-System
 
 
 This is a beginner level C++ project in which a user can register and login by providing suitable Username and Password.
